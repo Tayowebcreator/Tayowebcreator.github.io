@@ -1,0 +1,34 @@
+html {
+  background-image: url('../CSS/images/georgeandsusanz.png');
+}
+
+/* Site NNavigation */
+
+.site-nav {
+  margin-left: 50;
+}
+
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+}
+.site-nav li {
+  list-style: none;
+  float: left;
+  margin-right: 5px;
+}
+
+.site-nav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 10px 100px;
+  border: 5px solid white;
+  margin-top: 250px;
+  margin-left: 60px;
+}
+
+.site-nav a:hover {
+  background-color: white;
+}
+/* End Site Navigation */
