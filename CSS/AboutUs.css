@@ -39,10 +39,51 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
-  color: white;
+  background-image: url(../CSS/Red\ Flat\ &\ Minimalist\ Comfort\ Food\ Website.png);
+  color: black;
 }
 
 .about-section {
-  background: url();
+  background-color: white;
+  background-size: 25%;
+  overflow: hidden;
+  padding: 110px 100;
+}
+
+.inner-container {
+  width: 55%;
+  float: right;
+  background-color: #fefdfd;
+  padding: 150px;
+}
+
+.text {
+  font-size: 16px;
+  color: gray;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1200px){
+  .inner-container {
+    padding: 80px;
+  }
+}
+
+@media screen and (max-width: 1000px;){
+  .about-section{
+    background-size: 100%;
+    padding: 100px 40px;
+  }
+  .inner-container{
+    width: 100%;
+}
+
+@media screen and (max-width:600px;) { 
+  .about-section{
+    padding: 0;
+  }
+  .inner-container
+  padding:60px
 }
