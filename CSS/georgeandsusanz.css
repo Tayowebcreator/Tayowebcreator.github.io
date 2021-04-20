@@ -1,5 +1,7 @@
 html {
   background-image: url('../CSS/images/georgeandsusanz.png');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Site NNavigation */

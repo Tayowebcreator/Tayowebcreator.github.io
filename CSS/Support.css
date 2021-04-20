@@ -1,5 +1,7 @@
 html {
   background-image: url(../CSS/images/support\ background.png);
+  background-size: cover;
+  background-attachment: fixed;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
