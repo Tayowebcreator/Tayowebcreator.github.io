@@ -2,6 +2,9 @@ html {
   background-image: url('../CSS/images/georgeandsusanz.png');
   background-size: cover;
   background-attachment: fixed;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Site NNavigation */
